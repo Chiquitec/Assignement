@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArmenTeKort</title>
+    <!-- Font Link -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <!-- Style link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- header -->
+    <header class="header">
+        <div class="header__container">
+            <div>
+                <img class="header__logo" src="Assets/logo.png" alt="Application Logo">
+            </div>
+            <div>
+                <img class="header__logOut" src="Assets/logout.svg" alt="Sign-out">
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- section one profile -->
+        <section class="boxes">
+            <div class="box box__one">
+                <img src="Assets/user.svg" alt="user icon">
+                <h3>My profile</h3>
+            </div>
+            <div class="box box__two">
+                <img src="Assets/buddy.svg" alt="buddy icon">
+                <h3>My buddy</h3>
+            </div>
+            <div class="box box__three">
+                <img src="Assets/tips.svg" alt="tips icon">
+                <h3>Tips & news</h3>
+            </div>
+        </section>
+        <!-- section two user & buddy -->
+        <section class="user">
+            <!-- user -->
+            <div class=" user user__profile">
+                <img src="Assets/profile.svg" alt="profile image" class="user__profile-pic">
+                <p class="user__profile-name">Name <span>Ricky</span></p>
+            </div>
+            <!-- buddy -->
+            <div class=" user user__buddy">
+                <img src="/Assets/malaika.svg" alt="buddy image">
+                <p class="user__buddy-name">My buddy <span>Malaika</span></p>
+            </div>
+        </section>
+
+        <!-- section three moods -->
+        <section class="moods">
+            <div class="section__title">
+                <div>
+                    <h1>How are you?</h1>
+                </div>
+                <div id="overlap__one">
+                    <img id="leaf" src="Assets/background-leaf.svg" alt="leaf image">
+                </div>
+            </div>
+            <div>
+
+                <!-- container div overlaping -->
+                <div class="overlap">
+                    <div class="mood__box" id="overlap__two">
+                        <p>+ My mood</p>
+                        <div class="emojis__box">
+                            <h2>Share how you feel with ArmenTeKort</h2>
+                            <p>This information is only shared with ATK and won’t be shown to your buddy.</p>
+                            <div class="faces">
+                                <div class="mood__one">
+                                    <img src="Assets/mood-1.svg" alt="angry face">
+                                </div>
+                                <div class="mood__one">
+                                    <img src="Assets/mood-2.svg" alt="sad face">
+                                </div>
+                                <div class="mood__one">
+                                    <img src="Assets/mood-3.svg" alt="neutral face">
+                                </div>
+                                <div class="mood__one">
+                                    <img src="Assets/mood-4.svg" alt="happy face">
+                                </div>
+                                <div class="mood__one">
+                                    <img src="Assets/mood-5.svg" alt="green happy face">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
